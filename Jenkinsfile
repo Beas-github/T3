@@ -25,5 +25,3 @@ stage('Push image') {
   }
 }
 
-#test
-                            
