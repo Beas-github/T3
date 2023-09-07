@@ -8,7 +8,6 @@ COPY . .
 
 RUN apt-get update 
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install flask
 
 # port number
 EXPOSE 5000
